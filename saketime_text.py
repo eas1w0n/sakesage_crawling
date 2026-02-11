@@ -35,14 +35,14 @@ driver = webdriver.Chrome()  # 크롬 드라이버 경로 설정 필요
 
 # 여러 URL에 대해 순차적으로 크롤링
 urls = [
-    #"https://www.saketime.jp/brands/696", #도쿄- 이케부쿠로 서점越後鶴亀 純米大吟醸(에치고 츠루가메 순미 대음양)
+    #"https://www.saketime.jp/brands/696", #도쿄- 이케부쿠로 서점越後鶴亀 純米大吟醸
     #"https://www.saketime.jp/brands/997", #도쿄 - 이케부쿠로 서점 기쿠히메 가양국화주
     #"https://www.saketime.jp/brands/525", #이케부쿠로 서점 - 秩父錦 치치부 니시키
-    #"https://www.saketime.jp/brands/297", #이케부쿠로 - 大七 極上生もと限定醸造吟醸 다이시치 극상생 어쩌고
-    #"https://www.saketime.jp/brands/995", # 도쿄 긴자점 - 加賀鳶 純大吟 千日囲い錦絵 720ML 카가토비 준다이긴 어쩌고
-    #"https://www.saketime.jp/brands/990", # 도쿄 긴자점 - 天狗舞 山廃純米大吟醸 720ML Tengu Mai 어쩌고
+    #"https://www.saketime.jp/brands/297", #이케부쿠로 - 大七 極上生もと限定醸造吟醸
+    #"https://www.saketime.jp/brands/995", # 도쿄 긴자점 - 加賀鳶 純大吟 千日囲い錦絵 720ML
+    #"https://www.saketime.jp/brands/990", # 도쿄 긴자점 - 天狗舞 山廃純米大吟醸 720ML 
     #"https://www.saketime.jp/brands/176", # 도쿄 긴자점 - 浦霞 純米酒 720ML Ura Kasumi
-    #"https://www.saketime.jp/brands/1404", # 도쿄 진자 - 松竹梅 上撰 1.8L 2 개 판지 포장
+    #"https://www.saketime.jp/brands/1404", # 도쿄 진자 - 松竹梅 上撰 1.8L
     #"https://www.saketime.jp/brands/1001",
     "https://www.saketime.jp/brands/298"
 ]
